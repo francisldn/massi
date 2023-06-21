@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center'>
       <Hero />
-      <div className='mt-[4rem] lg:mt-24'>
+      <div className='mt-[4rem] lg:mt-[7rem]'>
         <h1
           className={`text-center text-4xl lg:text-5xl text-amber-950 ${edu.className}`}
         >
