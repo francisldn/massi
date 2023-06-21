@@ -10,7 +10,7 @@ const MenuItem: React.FC<{ title: string; link: string }> = ({
     <li
       className={`text-3xl my-2 text-link bg-stone-200 ${edu_sa.className} w-80 text-center`}
     >
-      <a href={link} target='_blank' rel='noreferrer noopener'>
+      <a href={link}>
         {title}
       </a>
     </li>
