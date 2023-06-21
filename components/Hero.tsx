@@ -16,7 +16,7 @@ const Hero = () => {
           style={{ objectFit: "cover" }}
         />
       </section>
-      <div className='top-[11rem] lg:top-[8rem] absolute w-40 h-40 lg:w-[15rem] lg:h-[15rem] rounded-full overflow-hidden p-1 bg-white border-amber-500 border-2'>
+      <div className='top-[8rem] lg:top-[5rem] absolute w-40 h-40 lg:w-[15rem] lg:h-[15rem] rounded-full overflow-hidden p-1 bg-white border-amber-500 border-2'>
         <div className="rounded-full w-full h-full overflow-hidden">
           <Image
             src={ profile}
