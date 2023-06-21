@@ -1,24 +1,35 @@
-import React from 'react'
+import React from "react";
+import { edu_sa } from "@/utils/font";
+import { calendarURL } from "@/utils/constants";
 
-const MenuItem: React.FC<{ title: string }> = ({ title }) => {
-    return (
-        <li className='text-2xl text-black bg-stone-200 px-20 my-2 py-1'>{title}</li>
-    )
-}
+const MenuItem: React.FC<{ title: string; link: string }> = ({
+  title,
+  link,
+}) => {
+  return (
+    <li
+      className={`text-3xl my-2 text-link bg-stone-200 ${edu_sa.className} w-80 text-center`}
+    >
+      <a href={link} target='_blank' rel='noreferrer noopener'>
+        {title}
+      </a>
+    </li>
+  );
+};
 
 const Menu = () => {
   return (
-      <nav className='flex flex-col items-center justify-center w-full h-24 mt-[9%]'>
-        <ul className='flex flex-col items-center justify-center space-x-4'>
-              <MenuItem title='Our Service' />
-              <hr className="dotted"/>
-              <MenuItem title='Contact Me' />
-              <hr className="dotted"/>
-              <MenuItem title='Book Now' />
-              <hr className="dotted"/>
-        </ul>
+    <nav className='flex flex-col items-center justify-center w-full h-24 mt-[11rem] lg:mt-[12rem]'>
+      <ul className='flex flex-col items-center justify-center w-full'>
+        <MenuItem title='Our Service' link='/service' />
+        <hr className='dotted' />
+        <MenuItem title='Contact Me' link='/contact' />
+        <hr className='dotted' />
+        <MenuItem title='Book Now' link={calendarURL} />
+        <hr className='dotted' />
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
