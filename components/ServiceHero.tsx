@@ -5,7 +5,7 @@ import { relaxing } from '@/utils/constants';
 const ServiceHero = () => {
   return (
       <section>
-          <div className='h-[30vh] w-[100vw] wavy mb-[5rem] lg:mb-[1rem] absolute'>
+          <div className='h-[50vh] lg:h-[30vh] w-[100vw] wavy mb-[5rem] lg:mb-[1rem] absolute'>
             <Image
                 src={relaxing}
                 width='0'

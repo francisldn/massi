@@ -68,10 +68,9 @@ body {
 
 .wavy {
   position: relative;
-  height: 200px; /* Adjust the height as per your requirements */
   width: 100%;
   overflow:hidden;
-  border-radius: 0 0 100px 100px
+  border-radius: 0 0 100% 100%;
 }
 
 .service-container {

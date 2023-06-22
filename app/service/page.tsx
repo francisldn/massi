@@ -10,9 +10,9 @@ const serviceWidth= 'lg:w-[500px]'
 
 const ServicePage = () => {
     return (
-        <main className="h-[100vh]">
+        <main className="h-[100vh] w-full">
         <ServiceHero />
-        <section className="px-[5%] py-auto flex flex-col lg:justify-center service-container">
+        <section className="px-[5%] py-auto flex flex-col lg:justify-center service-container lg:mt-0">
             <div className="lg:h-full lg:items-center lg:justify-center flex flex-col lg:flex-row gap-4">
                 <Service
                     src={relaxing}
@@ -42,15 +42,12 @@ const ServicePage = () => {
                     maxWidth={serviceWidth}
                 /> 
 
-            </div>
-            
-            
+            </div> 
             </section>
-            <div className="absolute rounded-full bg-yellow-600 text-white top-[6rem] left-[50%] h-40 w-40 text-center">
+            <div className="absolute rounded-full bg-yellow-600 text-white top-[20rem] lg:top-[10rem] h-40 w-40 left-[35%] lg:left-[45%]">
                 <div className="flex items-center h-full w-full justify-center">
                     <p className="text-center text-sm">Receive <br /><span className="text-4xl tracking-widest">10%</span><br/> off your first <br />treatment<br/></p>
                 </div>
-               
             </div>
         </main>
   )
