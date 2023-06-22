@@ -12,7 +12,7 @@ const ServicePage = () => {
     return (
         <main className="h-[100vh] w-full relative">
         <ServiceHero />
-        <div className="-mt-[11rem] lg:-mt-[5rem] mx-auto rounded-full bg-yellow-600 text-white h-40 w-40">
+        <div className="-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-yellow-600 text-white h-40 w-40">
             <div className="flex items-center h-full w-full justify-center z-10">
                 <p className="text-center text-sm">Receive <br /><span className="text-4xl tracking-widest">10%</span><br/> off your first <br />treatment<br/></p>
             </div>
