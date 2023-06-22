@@ -31,8 +31,8 @@ const Service: React.FC<ServiceProps> = ({ src, size, title, description, bookin
               <h2 className="font-bold text-lg xl:text-xl">{title}</h2>
               <p className="text-sm xl:text-lg">{description}</p>
           </div>
-          <div className={`text-link text-xl xl:text-3xl text-center bg-stone-300 ${edu_sa.className} mt-[1rem]`}>
-              <a href={ calendarURL}>{ bookingText}</a>
+          <div className={`text-md lg:text-xl xl:text-2xl text-center bg-[rgb(0,0,0,0.9)] text-[white] ${edu_sa.className} mt-[1rem] w-[70%] lg:w-[90%] booking-text rounded-full`}>
+              <a href={calendarURL}>{ bookingText}</a>
           </div>
     </Infobox>
   )

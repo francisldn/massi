@@ -86,3 +86,20 @@ body {
   overflow:hidden;
   border-radius: 0 0 100% 100%;
 }
+
+.booking-text {
+  color: white;
+}
+
+.booking-text {
+  @apply
+  tracking-widest 
+  decoration-4 
+  py-1
+}
+
+.booking-text:hover {
+  @apply
+  bg-stone-300
+  text-black
+}
