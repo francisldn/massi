@@ -19,8 +19,6 @@ const ServiceHero = () => {
                alt={"contact-icon"}
             /> 
           </div>
-          
-          
     </section>
   )
 }

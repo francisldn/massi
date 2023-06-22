@@ -14,7 +14,15 @@ const ServicePage = () => {
         <ServiceHero />
         <div className="-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-yellow-600 text-white h-40 w-40">
             <div className="flex items-center h-full w-full justify-center z-10">
-                <p className="text-center text-sm">Receive <br /><span className="text-4xl tracking-widest">10%</span><br/> off your first <br />treatment<br/></p>
+                    <p className="text-center text-sm">
+                        <span className="text-xl tracking-wider">Exclusive</span>
+                        <br />
+                        <span className="text-lg text-bold">90' </span>
+                        massage offer
+                        <br />
+                        for just
+                        <span className="text-bold text-lg"> £60</span>
+                    </p>
             </div>
         </div>
         <section className="px-[5%] mt-[1rem] flex flex-col lg:justify-center service-container lg:mt-[2rem]">
@@ -40,7 +48,7 @@ const ServicePage = () => {
                 <Service
                     src={remedial}
                     size={"image-xl"}
-                    title={"RemedialMassage"}
+                    title={"Remedial Massage"}
                     description={"Merging the power of hot stones and custom-blended oils targeting muscle pain, restoring energy balance and promoting deep relaxation."}
                     bookingText={"Book a Remedial Now"}
                     minHeight={true}
