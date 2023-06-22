@@ -25,7 +25,7 @@ const Contact = () => {
             </span>
           </a>
         </div>
-        <div className='mt-36 w-full h-full mx-auto'>
+        <div className='mt-[5rem] w-full h-full mx-auto'>
           <Contactbox />
         </div>
       </div>
