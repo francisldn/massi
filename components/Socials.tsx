@@ -4,7 +4,7 @@ import { email, instagram, mobile, telegram, whatsapp } from '@/utils/constants'
 
 const Socials = () => {
   return (
-    <ul className="flex gap-8 my-auto flex-wrap justify-center">
+    <ul className="flex gap-6 my-auto flex-wrap justify-center">
           <li><Icon src="/gmail.svg" size="icon-medium" link={`mailto:${email}`} /></li>
           <li><Icon src="/whatsapp.svg" size="icon-medium-small" link={ whatsapp}/></li>
           <li><Icon src="/telegram.svg" size="icon-medium-small" link={ telegram} /></li>
