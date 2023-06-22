@@ -1,10 +1,11 @@
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import { edu } from "@/utils/font";
+import Socials from '../components/Socials';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center'>
+    <main className='flex flex-col items-center gap-4'>
       <Hero />
       <div className='mt-[1rem] lg:mt-[1rem]'>
         <h1
@@ -18,7 +19,8 @@ export default function Home() {
           Massage Therapist 4 males @ London
         </h3>
       </div>
-      <Menu />
+       <Socials />
+       <Menu />
     </main>
   );
 }

@@ -19,8 +19,8 @@ const MenuItem: React.FC<{ title: string; link: string }> = ({
 
 const Menu = () => {
   return (
-    <nav className='flex flex-col items-center justify-center w-full h-24 mt-[11rem] lg:mt-[12rem]'>
-      <ul className='flex flex-col items-center justify-center w-full'>
+    <nav className='flex flex-col items-center w-full h-24'>
+      <ul className='flex flex-col items-center w-full'>
         <MenuItem title='Our Service' link='/service' />
         <hr className='dotted' />
         <MenuItem title='Contact Me' link='/contact' />
