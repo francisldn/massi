@@ -8,7 +8,7 @@ const MenuItem: React.FC<{ title: string; link: string }> = ({
 }) => {
   return (
     <li
-      className={`text-3xl my-2 text-link bg-stone-200 ${edu_sa.className} w-80 text-center`}
+      className={`text-xl md:text-3xl my-2 text-link bg-stone-200 ${edu_sa.className} w-80 text-center shiny`}
     >
       <a href={link}>
         {title}

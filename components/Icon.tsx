@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Icon: React.FC<{ src: string; size: string; link?:string }> = ({ src, size, link}) => {
   return (
-    <div className={size}>
+    <div className={`${size} flex py-auto my-auto`}>
       <a href={ link} target="_blank" rel="noreferrer noopener">
           <Image
             src={ src}
