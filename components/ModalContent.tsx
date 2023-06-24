@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ModalContent = () => {
   return (
-    <div className='relative pl-[0.4rem] lg:pl-[2rem] pt-[0.4rem] pb-[2rem] lg:py-[2rem] overflow-hidden'>
+    <div className='relative pl-[1.5rem] lg:pl-[2rem] pt-[0.4rem] pb-[2rem] lg:py-[2rem] overflow-hidden'>
       <h1 className={`${fuzzy_bubbles.className} text-2xl lg:text-5xl mt-2 font-bold`}>
         Massage <br />
         Treatment
