@@ -9,3 +9,5 @@ export const whatsapp = "https://wa.me/447453860906?text=Hi%20I'm%20interested%2
 export const telegram = "https://t.me/Somassimassage"
 export const instagram = "https://instagram.com/massimassage"
 export const mobile = "tel:+447453860906"
+export const promo1 = 'https://res.cloudinary.com/dac48s3os/image/upload/v1687298649/remedial_tp1owb.jpg';
+export const promo2 = 'https://res.cloudinary.com/dac48s3os/image/upload/v1687298661/deepTissue_gqryjo.jpg'

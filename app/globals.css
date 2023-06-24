@@ -99,3 +99,11 @@ body {
   bg-stone-300
   text-black
 }
+
+.promo1 {
+  transform: rotate(-10deg)
+}
+
+.promo2 {
+  transform:rotate(20deg)
+}

@@ -6,6 +6,7 @@ import Service from "@/components/Service";
 import ServiceHero from "@/components/ServiceHero";
 import ModalContent from "../../components/ModalContent";
 import Modal from "react-modal";
+import CloseButton from "@/components/CloseButton";
 
 const serviceWidth = "lg:w-[500px]";
 
@@ -19,9 +20,10 @@ const customStyles = {
     transform: "translate(-50%, -50%)",
     overflow: "visible",
     zIndex: "20",
-        width: "70%",
-        maxWidth: '700px',
-        borderRadius: '1rem'
+    width: "100%",
+    maxWidth: '700px',
+        borderRadius: '1rem',
+        padding: '0',
   },
 };
 
@@ -106,12 +108,7 @@ const ServicePage = () => {
         style={customStyles}
         contentLabel=''
       >
-        <button
-          className='absolute top-0 right-0 -mt-3 -mr-3 w-6 h-6 z-50 bg-black rounded-full overflow-hidden cursor-pointer'
-          onClick={(e) => closeModal(e)}
-        >
-          <img src='/cancel.svg' alt='close icon' />
-        </button>
+        <CloseButton closeModal={ closeModal} />
         <ModalContent />
       </Modal>
     </>
