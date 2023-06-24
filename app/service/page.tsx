@@ -51,7 +51,6 @@ const ServicePage = () => {
         >
           <div
             className='flex items-center h-full w-full justify-center z-10'
-            onClick={() => console.log("open2")}
           >
             <p className='text-center text-sm'>
               <span className='text-xl tracking-wider'>Exclusive</span>
