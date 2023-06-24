@@ -37,8 +37,6 @@ body {
   underline-offset-2 
   tracking-widest 
   decoration-4 
-  text-black 
-  py-1
 }
 
 .shiny {
@@ -84,21 +82,12 @@ body {
 }
 
 .booking-text {
-  color: white;
-}
-
-.booking-text {
   @apply
   tracking-widest 
   decoration-4 
   py-1
 }
 
-.booking-text:hover {
-  @apply
-  bg-stone-300
-  text-black
-}
 
 .promo1 {
   transform: rotate(-10deg)

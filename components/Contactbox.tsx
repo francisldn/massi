@@ -5,7 +5,7 @@ import Socials from './Socials'
 
 const Contactbox = () => {
   return (
-      <Infobox>
+      <Infobox backgroundColor={"bg-blue-100"}>
           <p className="text-2xl lg:text-3xl text-amber-950 text-center mt-8">Not sure what is the best option massage for you?</p>
           <br />
           <div className="my-auto flex flex-col gap-4">

@@ -16,7 +16,7 @@ interface ServiceProps {
 
 const Service: React.FC<ServiceProps> = ({ src, size, title, description, bookingText, minHeight, maxWidth }) => {
   return (
-      <Infobox minHeight={minHeight} maxWidth={ maxWidth}>
+      <Infobox minHeight={minHeight} maxWidth={ maxWidth} backgroundColor="bg-neutral-100">
           <div className={`${size} rounded-full overflow-hidden`}>
             <Image
                 src={src}
@@ -31,7 +31,7 @@ const Service: React.FC<ServiceProps> = ({ src, size, title, description, bookin
               <h2 className="font-bold text-lg xl:text-xl">{title}</h2>
               <p className="text-sm xl:text-lg">{description}</p>
           </div>
-          <div className={`text-md lg:text-xl xl:text-2xl text-center bg-[rgb(0,0,0,0.9)] text-[white] ${edu_sa.className} mt-[1rem] w-[70%] lg:w-[90%] booking-text rounded-full`}>
+          <div className={`text-md lg:text-xl xl:text-2xl text-center bg-blue-200 hover:bg-[#0a2fc4] hover:text-[white] text-black ${edu_sa.className} mt-[1rem] w-[70%] lg:w-[90%] booking-text rounded-full`}>
               <a href={calendarURL}>{ bookingText}</a>
           </div>
     </Infobox>
