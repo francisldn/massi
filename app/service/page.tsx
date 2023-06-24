@@ -12,7 +12,7 @@ const serviceWidth = "lg:w-[500px]";
 
 const customStyles = {
   content: {
-    top: "25rem",
+    top: "50%",
     left: "50%",
     right: "auto",
     bottom: "auto",
@@ -22,8 +22,8 @@ const customStyles = {
     zIndex: "20",
     width: "100%",
     maxWidth: '700px',
-        borderRadius: '1rem',
-        padding: '0',
+    borderRadius: '1rem',
+    padding: '0',
   },
 };
 
@@ -101,16 +101,17 @@ const ServicePage = () => {
             />
           </div>
         </section>
+        <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            style={customStyles}
+            contentLabel=''
+        >
+            <CloseButton closeModal={ closeModal} />
+            <ModalContent />
+        </Modal>
       </main>
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel=''
-      >
-        <CloseButton closeModal={ closeModal} />
-        <ModalContent />
-      </Modal>
+      
     </>
   );
 };
