@@ -12,7 +12,7 @@ const serviceWidth = "lg:w-[500px]";
 
 const customStyles = {
   content: {
-    top: "40%",
+    top: "25rem",
     left: "50%",
     right: "auto",
     bottom: "auto",
