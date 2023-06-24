@@ -10,7 +10,7 @@ const MenuItem: React.FC<{ title: string; link: string; bounce?: boolean }> = ({
   return (
     <a href={link}>
       <li
-        className={`text-xl md:text-3xl my-2 text-link bg-blue-100 ${
+        className={`text-xl md:text-3xl my-2 text-link bg-blue-100 hover:bg-[#0a2fc4] hover:text-white ${
           edu_sa.className
         } cursor-pointer w-80 text-center shiny ${
           bounce ? "animate-bounce" : ""

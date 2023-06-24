@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
 
-const Icon: React.FC<{ src: string; size: string; link?:string }> = ({ src, size, link}) => {
+const Icon: React.FC<{ src: string; size: string; link?: string; backgroundColor?:string }> = ({ src, size, link, backgroundColor}) => {
   return (
-    <div className={`${size} flex py-auto my-auto`}>
+    <div className={`${size} flex py-auto my-auto ${backgroundColor}`}>
       <a href={ link} target="_blank" rel="noreferrer noopener">
           <Image
             src={ src}

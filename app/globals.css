@@ -47,10 +47,6 @@ body {
   border-radius: 10px;
 }
 
-.shiny:hover {
-  background-color: #0a2fc4;
-  color: #fff;
-}
 
 .shiny > a:before {
   content: '';
