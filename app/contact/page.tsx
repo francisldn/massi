@@ -5,7 +5,7 @@ import { calendarURL } from "@/utils/constants";
 
 const Contact = () => {
   return (
-    <main className='w-full flex flex-col items-center justify-center pt-[3rem] lg:pt-[4rem]'>
+    <main className='w-full h-[100vh] flex flex-col items-center justify-center'>
       <div className='w-[80%] lg:w-[50%]'>
         <p className='text-center text-sm lg:text-lg'>
           *Our treatments are offered only to male clients
