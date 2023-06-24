@@ -2,19 +2,23 @@ import React from "react";
 import { edu_sa } from "@/utils/font";
 import { calendarURL } from "@/utils/constants";
 
-const MenuItem: React.FC<{ title: string; link: string; bounce?:boolean }> = ({
+const MenuItem: React.FC<{ title: string; link: string; bounce?: boolean }> = ({
   title,
   link,
-  bounce
+  bounce,
 }) => {
   return (
-    <li
-      className={`text-xl md:text-3xl my-2 text-link bg-stone-200 ${edu_sa.className} w-80 text-center shiny ${bounce ? 'animate-bounce' : ''}`}
-    >
-      <a href={link}>
+    <a href={link}>
+      <li
+        className={`text-xl md:text-3xl my-2 text-link bg-blue-100 ${
+          edu_sa.className
+        } cursor-pointer w-80 text-center shiny ${
+          bounce ? "animate-bounce" : ""
+        }`}
+      >
         {title}
-      </a>
-    </li>
+      </li>
+    </a>
   );
 };
 
@@ -26,7 +30,7 @@ const Menu = () => {
         <hr className='dotted' />
         <MenuItem title='Contact Me' link='/contact' />
         <hr className='dotted' />
-              <MenuItem title='Book Now' link={calendarURL} bounce={true} />
+        <MenuItem title='Book Now' link={calendarURL} bounce={true} />
         <hr className='dotted' />
       </ul>
     </nav>
