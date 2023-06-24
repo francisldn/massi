@@ -20,7 +20,7 @@ const customStyles = {
     transform: "translate(-50%, -50%)",
     overflow: "visible",
     zIndex: "20",
-    width: "100%",
+    width: "95%",
     maxWidth: '700px',
     borderRadius: '1rem',
     padding: '0',
