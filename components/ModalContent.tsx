@@ -14,20 +14,20 @@ const ModalContent = () => {
       <h3 className='text-lg lg:text-4xl mt-1 font-bold tracking-wider'>
         PROMO LIMITED TIME
       </h3>
-      <div className='flex gap-3 mt-[0.5rem] lg:mt-[3rem]'>
+      <div className='flex gap-1 lg:gap-3 mt-[0.5rem] lg:mt-[3rem]'>
         <Icon
           src='email.svg'
-          size='w-6 h-6'
+          size='w-4 h-4 lg:w-6 lg:h-6'
           link='mailto:massimassage@icloud.com'
         />
-        <a href={`mailto:${email}`} className='tracking-wider'>{`${email}`}</a>
+        <a href={`mailto:${email}`} className='lg:tracking-wider text-sm lg:text-md'>{`${email}`}</a>
       </div>
-      <div className="mb-[2rem]">
-        <p className='mt-[1rem] lg:mt-[2rem] font-bold text-lg tracking-wider'>
+      <div className="mb-[1rem] lg:mb-[2rem]">
+        <p className='mt-[1rem] lg:mt-[2rem] font-bold text-md lg:text-lg tracking-wider'>
           Elevate your <br />
           experience with
         </p>
-        <ul className='mt-[0.5rem] flex flex-col gap-[0.5rem] font-bold text-lg'>
+        <ul className='mt-[0.5rem] flex flex-col gap-[0.5rem] font-bold text-md lg:text-lg'>
           <li>
             60&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£60
           </li>
@@ -38,7 +38,7 @@ const ModalContent = () => {
             120&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£100
           </li>
         </ul>
-        <p className='mt-[1rem] lg:mt-[2rem] text-lg font-bold leading-8 tracking-wider'>
+        <p className='mt-[1rem] lg:mt-[2rem] text-md lg:text-lg font-bold leading-8 tracking-wider'>
           First massage
           <br />
           for a luxurious
@@ -48,7 +48,7 @@ const ModalContent = () => {
       </div>
       <a
         href={`${calendarURL}`}      
-        className={`px-6 rounded-full py-2 bg-blue-300 hover:bg-[#0a2fc4] hover:text-white font-bold text-lg tracking-widest` }
+        className={`px-6 rounded-full py-2 bg-blue-300 hover:bg-[#0a2fc4] hover:text-white font-bold text-md lg:text-lg tracking-widest` }
       >
         BOOK NOW
       </a>
