@@ -56,7 +56,7 @@ const ServicePage = () => {
             <p className='text-center text-sm'>
               <span className='text-xl tracking-wider'>Exclusive</span>
               <br />
-              <span className='text-lg text-bold'>{`90'`}</span>
+              <span className='text-lg text-bold'>{`90' `}</span>
               massage offer
               <br />
               for just
