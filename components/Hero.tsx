@@ -7,7 +7,6 @@ const Hero = () => {
   const [screenWidth, setScreenWidth] = useState(1025);
 
   useEffect(() => {
-    console.log(window.innerWidth)
     const handleResize = () => {
       setScreenWidth(() => window.innerWidth);
     };
@@ -21,7 +20,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className={`h-[30vh] w-full bg-current`}>
+      <section className={`h-[30vh] lg:h-[40vh] w-full bg-current`}>
         <Image
           src={ screenWidth > 1024 ? heroLG : heroSM}
           width='0'
@@ -32,7 +31,7 @@ const Hero = () => {
           style={{ objectFit: "cover" }}
         />
       </section>
-      <div className='-mt-[7rem] lg:-mt-[10rem] w-[7rem] h-[7rem] sm:w-40 sm:h-40 lg:w-[15rem] lg:h-[15rem] rounded-full overflow-hidden p-1 bg-white border-amber-500 border-2'>
+      <div className='-mt-[7rem] lg:-mt-[14rem] w-[7rem] h-[7rem] sm:w-40 sm:h-40 lg:w-[15rem] lg:h-[15rem] rounded-full overflow-hidden p-1 bg-white border-amber-500 border-2'>
         <div className="rounded-full w-full h-full overflow-hidden">
           <Image
             src={ profile}
