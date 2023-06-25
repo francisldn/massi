@@ -26,7 +26,7 @@ const Menu = () => {
   return (
     <nav className='flex flex-col items-center w-full h-24'>
       <ul className='flex flex-col items-center w-full'>
-        <MenuItem title='Our Service' link='/service' />
+        <MenuItem title='Our Services' link='/service' />
         <hr className='dotted' />
         <MenuItem title='Contact Me' link='/contact' />
         <hr className='dotted' />

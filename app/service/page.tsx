@@ -53,7 +53,7 @@ const ServicePage = () => {
             className='flex items-center h-full w-full justify-center z-10'
           >
             <p className='text-center text-sm'>
-              <span className='text-xl tracking-wider'>Exclusive</span>
+              <span className='text-xl tracking-wider font-bold'>Exclusive</span>
               <br />
               <span className='text-lg text-bold'>{`90' `}</span>
               massage offer
