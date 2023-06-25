@@ -288,3 +288,7 @@ animation - bounce-in-top
     opacity: 1;
   }
 }
+
+.shadow {
+  box-shadow: 0 4px 10px -1px rgba(23,37,84,0.5)
+}
