@@ -9,7 +9,6 @@ const Socials = () => {
           <li><Icon src="/whatsapp.svg" size="w-[26px] h-[26px] md:w-[40px] md:h-[40px]" link={ whatsapp}/></li>
           <li><Icon src="/telegram.svg" size="w-[30px] h-[30px] md:w-[45px] md:h-[45px]" link={ telegram} /></li>
           <li><Icon src="/instagram.svg" size="w-[30px] h-[30px] md:w-[45px] md:h-[45px]" link={ instagram} /></li>
-          <li><Icon src="/mobile.svg" size="w-[30px] h-[30px] md:w-[45px] md:h-[45px]" link={ mobile} /></li>
     </ul>
   )
 }
