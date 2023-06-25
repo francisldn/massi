@@ -29,13 +29,13 @@ const ModalContent = () => {
         </p>
         <ul className='mt-[0.5rem] flex flex-col gap-[0.5rem] font-bold text-md lg:text-lg'>
           <li>
-            60&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£60
+            60&apos;&nbsp;&nbsp;&nbsp;_£60
           </li>
           <li>
-            90&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£90
+            90&apos;&nbsp;&nbsp;&nbsp;_£90
           </li>
           <li>
-            120&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£100
+            120&apos;&nbsp;&nbsp;_£100
           </li>
         </ul>
         <p className='mt-[1rem] lg:mt-[2rem] text-md lg:text-lg font-bold leading-8 tracking-wider'>
@@ -43,7 +43,7 @@ const ModalContent = () => {
           <br />
           for a luxurious
           <br />
-          90&apos;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_£60
+          90&apos;&nbsp;&nbsp;_£60
         </p>
       </div>
       <a
