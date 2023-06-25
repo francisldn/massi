@@ -13,3 +13,4 @@ export const instagram = "https://instagram.com/massimassage"
 export const mobile = "tel:+447453860906"
 export const promo1 = 'https://res.cloudinary.com/dac48s3os/image/upload/v1687298649/remedial_tp1owb.jpg';
 export const promo2 = 'https://res.cloudinary.com/dac48s3os/image/upload/v1687298661/deepTissue_gqryjo.jpg'
+export const logo = 'https://res.cloudinary.com/dac48s3os/image/upload/v1687712622/WhatsApp_Image_2023-06-25_at_18.03.02_mgvhfg.jpg'

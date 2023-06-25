@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect} from "react";
 import Image from "next/image";
-import { heroLG, heroSM, profile } from "@/utils/constants";
+import { heroLG, heroSM, logo, profile } from "@/utils/constants";
 
 const Hero = () => {
   const [screenWidth, setScreenWidth] = useState(800);
@@ -23,6 +23,17 @@ const Hero = () => {
   return (
     <>
       <section className={`h-[30vh] lg:h-[40vh] w-full bg-current`}>
+        <div className="absolute top-4 left-4 w-[7rem] h-[7rem] rounded-full overflow-hidden bg-white">
+          <Image
+            src={ logo}
+            width='0'
+            height='0'
+            sizes='100vw'
+            className='w-full h-full bg-transparent'
+            alt={"picture of a man enjoying a massage"}
+            style={{ objectFit: 'contain' }}
+          />
+        </div>
         <Image
           src={ screenWidth > 1024 ? heroLG : heroSM}
           width='0'
