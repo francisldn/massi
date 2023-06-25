@@ -4,7 +4,7 @@ import Image from "next/image";
 import { heroLG, heroSM, profile } from "@/utils/constants";
 
 const Hero = () => {
-  const [screenWidth, setScreenWidth] = useState(1025);
+  const [screenWidth, setScreenWidth] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
