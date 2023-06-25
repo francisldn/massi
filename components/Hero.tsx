@@ -4,19 +4,21 @@ import Image from "next/image";
 import { heroLG, heroSM, profile } from "@/utils/constants";
 
 const Hero = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
+  const [screenWidth, setScreenWidth] = useState(800);
 
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(() => window.innerWidth);
     };
-
+    if (window.innerWidth !== screenWidth) {
+      handleResize();
+    }
     window.addEventListener("resize", handleResize);
-
+    
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  },[]);
+  },[screenWidth]);
 
   return (
     <>
