@@ -46,7 +46,7 @@ const ServicePage = () => {
       <main className='h-[100vh] w-full relative' id='modal'>
         <ServiceHero />
         <div
-          className='-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow scale'
+          className='-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow scale hover:bg-[#0a2fc4] hover:text-white'
           onClick={openModal}
         >
           <div
@@ -58,7 +58,7 @@ const ServicePage = () => {
               <span className='text-lg text-bold'>{`90' `}</span>
               massage offer
               <br />
-              for just
+              from just
               <span className='text-bold text-lg'> £60</span>
             </p>
           </div>
