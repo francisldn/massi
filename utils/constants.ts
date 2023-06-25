@@ -3,7 +3,7 @@ export const relaxing = "https://res.cloudinary.com/dac48s3os/image/upload/v1687
 export const deepTissue = "https://res.cloudinary.com/dac48s3os/image/upload/v1687298661/deepTissue_gqryjo.jpg";
 export const remedial = "https://res.cloudinary.com/dac48s3os/image/upload/v1687681128/WhatsApp_Image_2023-06-19_at_21.46.11_lneq5r.jpg"
 export const profile = "https://res.cloudinary.com/dac48s3os/image/upload/v1687210148/profile_dnzybg.jpg"
-export const heroSM = "https://res.cloudinary.com/dac48s3os/image/upload/v1687415623/hero_zggpij.jpg"
+export const heroSM = "https://res.cloudinary.com/dac48s3os/image/upload/v1687709659/holistic-massage-benefits-1024x683_sjpubc.jpg"
 export const heroLG = "https://res.cloudinary.com/dac48s3os/image/upload/v1687690404/heroLG_hry92x.jpg"
 export const email = "massimassage@icloud.com"
 export const whatsapp = "https://wa.me/447453860906?text=Hi%20I'm%20interested%20in%20the%20Massi%20Massage%20service."
