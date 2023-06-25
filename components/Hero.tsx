@@ -1,13 +1,29 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect} from "react";
 import Image from "next/image";
-import { hero, profile } from "@/utils/constants";
+import { heroLG, heroSM, profile } from "@/utils/constants";
 
 const Hero = () => {
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    console.log(window.innerWidth)
+    const handleResize = () => {
+      setScreenWidth(() => window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  },[]);
+
   return (
     <>
-      <section className='h-[30vh] w-full bg-current'>
+      <section className={`h-[30vh] w-full bg-current`}>
         <Image
-          src={ hero}
+          src={ screenWidth > 1024 ? heroLG : heroSM}
           width='0'
           height='0'
           sizes='100vw'

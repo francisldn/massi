@@ -46,7 +46,7 @@ const ServicePage = () => {
       <main className='h-[100vh] w-full relative' id='modal'>
         <ServiceHero />
         <div
-          className='-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow'
+          className='-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow scale'
           onClick={openModal}
         >
           <div
