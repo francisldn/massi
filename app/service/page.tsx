@@ -55,11 +55,11 @@ const ServicePage = () => {
             <p className='text-center text-sm'>
               <span className='text-xl tracking-wider font-bold'>Exclusive</span>
               <br />
-              <span className='text-lg text-bold'>{`90' `}</span>
-              massage offer
-              <br />
+              <span className='text-lg text-bold'>Summer <br/> Deal</span>
+              
+              {/* <br />
               from just
-              <span className='text-bold text-lg'> £60</span>
+              <span className='text-bold text-lg'> £60</span> */}
             </p>
           </div>
         </div>
