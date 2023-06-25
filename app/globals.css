@@ -290,5 +290,9 @@ animation - bounce-in-top
 }
 
 .shadow {
-  box-shadow: 0 4px 10px -1px rgba(23,37,84,0.5)
+  box-shadow: 0 4px 10px -1px rgba(23,37,84,0.5);
+}
+
+.shadow-info {
+  box-shadow: 4px 4px 10px -4px rgba(23,37,84,0.5);
 }
