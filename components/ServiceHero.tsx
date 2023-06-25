@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { relaxing } from '@/utils/constants';
+import { serviceHero } from '@/utils/constants';
 
 const ServiceHero = () => {
   return (
@@ -11,7 +11,7 @@ const ServiceHero = () => {
           <div className='h-[50vh] lg:h-[35vh] w-[100vw] wavy mb-[5rem] lg:mb-[1rem] absolute -z-10'>
               <div className="absolute bg-[rgb(0,0,0,0.3)] w-full h-full"></div>
             <Image
-                src={relaxing}
+                src={serviceHero}
                 width='0'
                 height='0'
                 sizes='100vw'
