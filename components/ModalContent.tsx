@@ -3,11 +3,13 @@ import { edu_sa, fuzzy_bubbles } from "../utils/font";
 import Icon from "./Icon";
 import { calendarURL, email, promo1, promo2 } from "@/utils/constants";
 import Image from "next/image";
+import Logo from "./Logo";
 
 const ModalContent = () => {
   return (
     <div className='relative pl-[1.5rem] lg:pl-[2rem] pt-[0.4rem] pb-[2rem] lg:py-[2rem] overflow-hidden'>
-      <h1 className={`${fuzzy_bubbles.className} text-2xl lg:text-5xl mt-2 font-bold`}>
+      <Logo />
+      <h1 className={`${fuzzy_bubbles.className} text-2xl lg:text-5xl mt-[4rem] font-bold`}>
         Massage <br />
         Treatment
       </h1>

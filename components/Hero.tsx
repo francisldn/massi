@@ -24,7 +24,6 @@ const Hero = () => {
   return (
     <>
       <section className={`h-[30vh] lg:h-[40vh] w-full bg-current`}>
-        <Logo />
         <Image
           src={ screenWidth > 1024 ? heroLG : heroSM}
           width='0'
