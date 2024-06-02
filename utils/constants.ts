@@ -6,7 +6,7 @@ export const relaxing =
 export const deepTissue =
   "https://res.cloudinary.com/dac48s3os/image/upload/v1717342624/MassiMassage/deepTissue_lntfu5.jpg";
 export const remedial =
-  "https://res.cloudinary.com/dac48s3os/image/upload/v1717342635/MassiMassage/remedial_kuvaoa.jpg";
+  "https://res.cloudinary.com/dac48s3os/image/upload/v1717353651/MassiMassage/remedial_gonwlq.jpg";
 export const profile =
   "https://res.cloudinary.com/dac48s3os/image/upload/v1717343657/MassiMassage/Profile_kktk3u.jpg";
 export const heroSM =
