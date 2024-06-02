@@ -24,4 +24,4 @@ export const promo1 =
 export const promo2 =
   "https://res.cloudinary.com/dac48s3os/image/upload/v1717344921/MassiMassage/promo2_qy5s8v.jpg";
 export const logo =
-  "https://res.cloudinary.com/dac48s3os/image/upload/v1687712622/WhatsApp_Image_2023-06-25_at_18.03.02_mgvhfg.jpg";
+  "https://res.cloudinary.com/dac48s3os/image/upload/v1717346019/MassiMassage/massi_logo_j8bigo.jpg";
