@@ -1,8 +1,7 @@
 "use client";
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { heroLG, heroSM, logo, profile } from "@/utils/constants";
-import Logo from "./Logo";
+import { heroLG, heroSM, profile } from "@/utils/constants";
 
 const Hero = () => {
   const [screenWidth, setScreenWidth] = useState(800);
@@ -15,17 +14,17 @@ const Hero = () => {
       handleResize();
     }
     window.addEventListener("resize", handleResize);
-    
+
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  },[screenWidth]);
+  }, [screenWidth]);
 
   return (
     <>
       <section className={`h-[30vh] lg:h-[40vh] w-full bg-current`}>
         <Image
-          src={ screenWidth > 1024 ? heroLG : heroSM}
+          src={screenWidth > 1024 ? heroLG : heroSM}
           width='0'
           height='0'
           sizes='100vw'
@@ -35,9 +34,9 @@ const Hero = () => {
         />
       </section>
       <div className='-mt-[5.5rem] lg:-mt-[14rem] w-[7rem] h-[7rem] sm:w-40 sm:h-40 lg:w-[15rem] lg:h-[15rem] rounded-full overflow-hidden p-1 bg-white border-amber-500 border-2'>
-        <div className="rounded-full w-full h-full overflow-hidden">
+        <div className='rounded-full w-full h-full overflow-hidden'>
           <Image
-            src={ profile}
+            src={profile}
             width='0'
             height='0'
             sizes='100vw'
@@ -45,7 +44,6 @@ const Hero = () => {
             alt={"profile picture"}
           />
         </div>
-       
       </div>
     </>
   );

@@ -21,9 +21,9 @@ const customStyles = {
     overflow: "visible",
     zIndex: "20",
     width: "95%",
-    maxWidth: '700px',
-    borderRadius: '1rem',
-    padding: '0',
+    maxWidth: "700px",
+    borderRadius: "1rem",
+    padding: "0",
   },
 };
 
@@ -46,17 +46,19 @@ const ServicePage = () => {
       <main className='h-[100vh] w-full relative' id='modal'>
         <ServiceHero />
         <div
-          className='-mt-[8rem] lg:-mt-[5rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow scale hover:bg-[#0a2fc4] hover:text-white'
+          className='-mt-[7rem] lg:-mt-[2rem] mx-auto rounded-full bg-blue-200 text-black h-40 w-40 cursor-pointer z-20 bounce-in-top shadow scale hover:bg-[#0a2fc4] hover:text-white'
           onClick={openModal}
         >
-          <div
-            className='flex items-center h-full w-full justify-center z-10'
-          >
+          <div className='flex items-center h-full w-full justify-center z-10'>
             <p className='text-center text-sm'>
-              <span className='text-xl tracking-wider font-bold'>Exclusive</span>
+              <span className='text-xl tracking-wider font-bold'>
+                Exclusive
+              </span>
               <br />
-              <span className='text-lg text-bold'>Summer <br/> Deal</span>
-              
+              <span className='text-lg text-bold'>
+                Summer <br /> Deal
+              </span>
+
               {/* <br />
               from just
               <span className='text-bold text-lg'> £60</span> */}
@@ -101,16 +103,15 @@ const ServicePage = () => {
           </div>
         </section>
         <Modal
-            isOpen={modalIsOpen}
-            onRequestClose={closeModal}
-            style={customStyles}
-            contentLabel=''
+          isOpen={modalIsOpen}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel=''
         >
-            <CloseButton closeModal={ closeModal} />
-            <ModalContent />
+          <CloseButton closeModal={closeModal} />
+          <ModalContent />
         </Modal>
       </main>
-      
     </>
   );
 };
